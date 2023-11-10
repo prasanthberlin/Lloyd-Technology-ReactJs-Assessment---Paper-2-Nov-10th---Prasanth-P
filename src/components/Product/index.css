@@ -1,0 +1,35 @@
+.each-product-heading-container {
+  display: flex;
+  min-width: 15vw;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 500px) {
+  .each-product-heading-container {
+    min-width: 75vw;
+  }
+}
+
+.product-heading-container {
+  display: flex;
+  min-width: 200px;
+  align-items: center;
+}
+
+.product-heading {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.view-all-text {
+  color: rgb(22, 179, 241);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.each-product-item {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  min-width: 100vw;
+}
